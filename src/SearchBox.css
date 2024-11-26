@@ -1,0 +1,20 @@
+.SearchBox{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.SearchBtn {
+    background-color: #1976d2; /* Default button color */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.SearchBtn:hover {
+    background-color: #125aa1; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarges the button */
+}

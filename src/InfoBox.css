@@ -1,0 +1,31 @@
+.InfoBox{
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.CardContiner{
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.CardContiner:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5); 
+    cursor: pointer; 
+  }
+  
+  /* .CardContiner:hover .MuiTypography-root {
+    color: #007BFF; 
+  }
+  
+  .CardContiner:hover .MuiSvgIcon-root {
+    color: #007BFF;
+     } */
